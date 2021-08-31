@@ -15,7 +15,7 @@ const toggleUserState = (allUsers, userName) => {
 
 };
 
-const logger = updatedUsers => console.log(updatedUsers);
+const logger = updatedUsers => console.table(updatedUsers);
 
 /*
  * Сейчас работает так
